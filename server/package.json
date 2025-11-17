@@ -1,0 +1,44 @@
+{
+  "name": "core-backend",
+  "version": "1.0.0",
+  "description": "Distributed backend architecture built on Node.js and Express, orchestrating real-time communication, secure authentication, and dynamic data flow between multiple operational layers including kitchen, waiter, admin, and customer interfaces. Engineered with scalability, modularity, and event-driven patterns to support seamless restaurant operations and live order tracking.",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "Backend",
+    "Node.js",
+    "Express",
+    "API",
+    "Real-time",
+    "Architecture",
+    "Scalable",
+    "Modular"
+  ],
+  "author": "Nexxupp.com",
+  "license": "ISC",
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "cloudinary": "^2.8.0",
+    "compression": "^1.8.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-mongo-sanitize": "^2.2.0",
+    "express-rate-limit": "^8.2.1",
+    "gradient-string": "^3.0.0",
+    "helmet": "^8.1.0",
+    "install": "^0.13.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.10",
+    "nodemon": "^3.1.10",
+    "npm": "^11.6.2",
+    "otp-generator": "^4.0.1",
+    "qrcode": "^1.5.4",
+    "socket.io": "^4.8.1",
+    "validator": "^13.15.20"
+  }
+}
